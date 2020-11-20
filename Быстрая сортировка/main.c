@@ -34,7 +34,6 @@ void my_qsort(int * mas, int l, int r){
 
 int main(int argc, char * argv[]) {
     int n  = 0;
-    //("%s", argv[1]);
     FILE * f = fopen(argv[1], "r");
     FILE * size = fopen("size.txt", "a");
     if(f == NULL)
