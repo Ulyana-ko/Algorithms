@@ -39,7 +39,7 @@ int main(int argc, char * argv[]) {
 
     for (int t = 0; t < i+1; t++){
         s = Q[t];
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < r; j++)
             for(int l = 0; l < 2; l++)
                 if(mas[j][l] == s){
                     if ((l == 1) && !(s_in_ar(V, mas[j][l-1],w)) && !(s_in_ar(Q, mas[j][l-1],i))){
