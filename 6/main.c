@@ -22,8 +22,6 @@ int DFS(int (*mas)[2], int * W, int i, int res, int n, int l){
 }
 
 int main(int argc, char * argv[]) {
-    //int mas[18][2] = {{1,2},{1,3},{1,4},{2,1},{2,3},{2,5},{3,1},{3,2},{4,1},{6,3},{6,7},{6,8},{7,6},{7,8},{8,6},{8,7}};
-    //int W[8];
     FILE * f = fopen(argv[1], "r");
     FILE * f2 = fopen(argv[2], "w");
     if (f == NULL)
