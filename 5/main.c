@@ -76,7 +76,7 @@ int return_feel(list_t * head, int num ){
 }
 
 void delete_list(list_t * head){
-    for(list_t * i = head; i->next; i = i->next)
+    for(list_t * i = head; i; i = i->next)
         free(i);
 }
 
