@@ -1,0 +1,3 @@
+C:/Users/ylian/CLionProjects/AlgGrehema/cmake-build-debug/CMakeFiles/AlgGrehema.dir
+C:/Users/ylian/CLionProjects/AlgGrehema/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ylian/CLionProjects/AlgGrehema/cmake-build-debug/CMakeFiles/rebuild_cache.dir
